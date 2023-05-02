@@ -19,6 +19,11 @@
     animation-duration: 2s;
     animation-iteration-count: infinite;
   }
+
+#about {
+    margin-top: 35px;
+  }
+  
   
 @keyframes pulse {
     0% {
