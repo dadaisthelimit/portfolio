@@ -1,0 +1,38 @@
+.timeline-item.animated {
+    animation-duration: 1.5s;
+  }
+
+#experience, #contact {
+    background-color: rgb(80, 143, 21);
+  }  
+
+#about {
+    margin-top: 35px;
+  }
+
+.navbar {
+    background-color: rgba(0, 100, 0, 1);
+  }
+
+.profile-pic {
+    width: 70%;
+  }
+
+.animate__pulse {
+    animation-name: pulse;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.5);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
