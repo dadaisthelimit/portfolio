@@ -17,3 +17,10 @@ function addAnimationClass() {
 }
 
 window.addEventListener('scroll', addAnimationClass);
+
+$(document).ready(function () {
+    $(".navbar-toggler").click(function () {
+      $(".navbar-collapse").slideToggle(200);
+    });
+  });
+  
